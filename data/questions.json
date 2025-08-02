@@ -1,0 +1,26 @@
+{
+  "Operational Excellence": [
+    {
+      "id": "OE1",
+      "question": "How do you monitor your systems?",
+      "options": [
+        "We do not monitor",
+        "Basic metrics only",
+        "Detailed monitoring with alarms and logs"
+      ],
+      "recommendation": "Implement centralized logging with CloudWatch and set up actionable alerts."
+    }
+  ],
+  "Security": [
+    {
+      "id": "SEC1",
+      "question": "Do you enforce least privilege access?",
+      "options": [
+        "No, all users have admin access",
+        "Some restrictions exist",
+        "Access is scoped by role using IAM policies"
+      ],
+      "recommendation": "Use IAM roles with least privilege and enforce MFA for sensitive actions."
+    }
+  ]
+}
